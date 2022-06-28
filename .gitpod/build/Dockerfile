@@ -1,4 +1,4 @@
-FROM archlinux
+FROM manjarolinux/base
 
 RUN pacman -Syu --noconfirm --needed \
     git \
